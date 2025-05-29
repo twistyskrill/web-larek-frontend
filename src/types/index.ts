@@ -1,4 +1,4 @@
-interface ICard {
+export interface ICard {
     id: string;
     category: string;
     title: string;
@@ -7,11 +7,11 @@ interface ICard {
     image: string;
 }
 
-interface IForm {
+export interface IForm {
     payment: string;
     address: string;
     email: string;
-    phone: number;
+    phone: string;
     total: number;
     items: string[]
 }

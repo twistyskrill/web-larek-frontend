@@ -62,7 +62,7 @@ interface IForm {
     payment: string;
     address: string;
     email: string;
-    phone: number;
+    phone: string;
     total: number;
     items: string[]
 }
